@@ -1,6 +1,21 @@
 # Quadcopter UAV Build and Integration
 
-Graduate quadcopter UAV build and integration project covering mechanical assembly, electrical wiring, ArduCopter flight-stack and flight-controller setup, ESC and brushless motor bring-up, ExpressLRS radio configuration, GPS integration, optional Wi-Fi telemetry, and final parameter tuning for stable, validated multirotor system operation.
+Graduate quadcopter UAV build and integration project covering mechanical assembly, electrical wiring, ArduCopter flight-controller setup, ESC and brushless motor bring-up, ExpressLRS radio configuration, GPS integration, optional ESP32-based Wi-Fi telemetry, and final parameter tuning for stable, validated multirotor system operation.
+
+---
+
+## Project At-a-Glance
+
+**Focus areas:** embedded hardware integration, UAV bring-up, wiring and power-path integration, ArduCopter configuration, radio/receiver setup, Mission Planner validation, telemetry integration, and final configuration preservation.
+
+**Key technologies:** ArduCopter, Mission Planner, ExpressLRS, EdgeTX, BLHeli_S, DroneBridge ESP32, UART-based subsystem integration.
+
+**Repository highlights:**
+- Build and integration guides
+- Wiring and architecture diagrams
+- Final build evidence images
+- Saved final parameter file
+- Repeatable setup and validation path
 
 ---
 
@@ -8,77 +23,38 @@ Graduate quadcopter UAV build and integration project covering mechanical assemb
 
 This repository documents my end-to-end build, integration, configuration, and bring-up of a compact quadcopter UAV completed as part of a graduate drone systems project. The work focused on assembling the airframe, integrating the power and signal path across flight electronics, configuring the ArduCopter flight stack, bringing up the ESC and motor subsystem, setting up the radio control link and GPS, and validating the final configuration through bench-level setup and parameter tuning.
 
-The project reflects hands-on work across embedded hardware integration, system configuration, signal and power wiring, flight-controller setup, subsystem validation, and reproducible final configuration capture. It is relevant to embedded systems, robotics, UAV, hardware/software integration, bring-up, and test/validation engineering roles.
+The project reflects hands-on work across embedded hardware integration, system configuration, signal and power wiring, flight-controller setup, subsystem validation, and reproducible final configuration capture. It is especially relevant to embedded systems, robotics, UAV, hardware/software integration, bring-up, validation, and manufacturing test-oriented engineering roles.
 
 ---
 
-## What This Project Demonstrates
+## For Recruiters and Hiring Teams
 
-- Quadcopter mechanical assembly and subsystem integration
-- Battery, ESC, and propulsion-path wiring
+This project demonstrates practical experience across:
+
+- embedded hardware bring-up
+- flight-controller and firmware configuration
+- electrical wiring and subsystem integration
+- UART-based receiver and telemetry integration
+- radio setup and control-link validation
+- GPS and navigation-related system integration
+- bench-level test and verification workflows
+- documentation of final build evidence and configuration artifacts
+
+It is a hands-on build and validation project rather than a simulation-only exercise, and the repository is structured to show both the final integrated hardware and the repeatable setup path used to reach the validated system state.
+
+---
+
+## Key Skills Demonstrated
+
+- Quadcopter mechanical assembly and electronics packaging
+- Battery, XT60, ESC, and propulsion-path wiring
 - Flight-controller setup and ArduCopter configuration
-- ExpressLRS radio and receiver integration
+- ExpressLRS transmitter/receiver integration
 - GPS installation and serial-interface integration
 - Optional ESP32-based Wi-Fi telemetry setup
 - Mission Planner-based validation and parameter verification
-- Documentation of final build evidence and saved configuration artifacts
-
----
-
-## Technical Scope
-
-### Mechanical integration
-- Airframe assembly
-- Electronics packaging
-- GPS mast placement
-- Battery mounting and retention
-- Wiring layout for serviceability and safe routing
-
-### Electrical and interface integration
-- XT60 and main battery power-path wiring
-- ESC and motor integration
-- Receiver-to-flight-controller UART wiring
-- GPS and telemetry serial connections
-- Power and ground distribution across the flight stack
-
-### Embedded configuration
-- ArduCopter flight-controller setup
-- Mission Planner parameter configuration
-- ELRS radio binding and control-link setup
-- Flight-mode and arm/disarm channel mapping
-- Final parameter-file preservation for reproducibility
-
-### Validation and bring-up
-- Bench validation with props removed
-- Radio-bar and switch verification in Mission Planner
-- Serial/UART configuration checks
-- Motor-order, motor-direction, and arming-logic validation
-- Final documented configuration baseline
-
----
-
-## System Architecture
-
-The completed system integrates the following major subsystems:
-
-- Carbon-fiber mini quad airframe
-- 4 brushless motors
-- 4 ESCs
-- ArduCopter-based flight controller
-- GPS module
-- ExpressLRS receiver
-- RadioMaster Pocket transmitter
-- LiPo battery and XT60 power connection
-- Optional DroneBridge ESP32 telemetry module
-
-At a high level:
-
-- The **battery and power path** supply the flight electronics and propulsion chain
-- The **flight controller** coordinates stabilization, control, serial integration, and motor outputs
-- The **receiver** carries pilot commands from the radio transmitter
-- The **GPS module** provides position and navigation input
-- The **optional ESP32 telemetry bridge** supports Wi-Fi telemetry to a ground station
-- The overall system is configured and validated through **Mission Planner**
+- Final `.param` configuration preservation for reuse and rebuilds
+- Technical documentation for reproducible system bring-up
 
 ---
 
