@@ -1,10 +1,11 @@
 # Quadcopter UAV Build and Integration
 
 **Author:** Yash Daniel Ingle  
-**Location:** Irvine, California, USA  
-**Program:** Master of Embedded and Cyber-Physical Systems, University of California, Irvine  
-**Project Type:** Graduate Embedded Systems / UAV Integration Project  
-**Focus:** Embedded hardware-software integration, UAV bring-up, wiring, configuration, validation, and documentation
+**Role:** Embedded Systems Engineer  
+**Institution:** University of California, Irvine  
+**Program:** Master of Embedded and Cyber-Physical Systems  
+**Project Category:** UAV System Build, Integration, and Validation  
+**Location:** Irvine, California, USA
 
 Graduate-level quadcopter UAV build and integration project covering mechanical assembly, electrical wiring, ArduCopter flight-controller setup, ESC and brushless motor bring-up, ExpressLRS radio configuration, GPS integration, optional ESP32-based Wi-Fi telemetry, and final parameter tuning for stable and validated multirotor operation.
 
@@ -76,19 +77,19 @@ This is a real hardware build and validation project, not a simulation-only exer
 
 ### Drone Build
 
-![Drone Image 1](docs/images/Drone1.jpeg)
-![Drone Image 2](docs/images/Drone2.jpeg)
-![Drone Image 3](docs/images/Drone3.jpeg)
-![Drone Image 4](docs/images/Drone4.jpeg)
-![Drone Image 5](docs/images/Drone5.jpeg)
-![Drone Image 6](docs/images/Drone6.jpeg)
+![Drone Image 1](../docs/images/Drone1.jpeg)
+![Drone Image 2](../docs/images/Drone2.jpeg)
+![Drone Image 3](../docs/images/Drone3.jpeg)
+![Drone Image 4](../docs/images/Drone4.jpeg)
+![Drone Image 5](../docs/images/Drone5.jpeg)
+![Drone Image 6](../docs/images/Drone6.jpeg)
 
 ### Controller / Radio Setup
 
-![Controller Image 1](docs/images/Controller1.jpeg)
-![Controller Image 2](docs/images/Controller2.jpeg)
-![Controller Image 3](docs/images/Controller3.jpeg)
-![Controller Image 4](docs/images/Controller4.jpeg)
+![Controller Image 1](../docs/images/Controller1.jpeg)
+![Controller Image 2](../docs/images/Controller2.jpeg)
+![Controller Image 3](../docs/images/Controller3.jpeg)
+![Controller Image 4](../docs/images/Controller4.jpeg)
 
 ---
 
@@ -96,19 +97,19 @@ This is a real hardware build and validation project, not a simulation-only exer
 
 ### Build Sequence Overview
 
-![Build Sequence Overview](docs/diagrams/build_sequence_overview.png)
+![Build Sequence Overview](../docs/diagrams/build_sequence_overview.png)
 
 ### System Architecture
 
-![System Architecture](docs/diagrams/system_architecture.png)
+![System Architecture](../docs/diagrams/system_architecture.png)
 
 ### ExpressLRS Receiver Wiring
 
-![ExpressLRS Receiver Wiring](docs/diagrams/elrs_receiver_wiring.png)
+![ExpressLRS Receiver Wiring](../docs/diagrams/elrs_receiver_wiring.png)
 
 ### DroneBridge Telemetry Wiring
 
-![DroneBridge Wiring](docs/diagrams/dronebridge_wiring.png)
+![DroneBridge Wiring](../docs/diagrams/dronebridge_wiring.png)
 
 ---
 
@@ -117,6 +118,9 @@ This is a real hardware build and validation project, not a simulation-only exer
 ```text
 quadcopter-uav_drone-build-integration/
 ├── README.md
+├── ParameterFiles/
+│   ├── README.md
+│   └── paramsquadcopter_final.param
 ├── docs/
 │   ├── diagrams/
 │   │   ├── build_sequence_overview.png
@@ -138,8 +142,5 @@ quadcopter-uav_drone-build-integration/
 │       ├── Drone3.jpeg
 │       ├── Drone4.jpeg
 │       ├── Drone5.jpeg
-│       └── Drone6.jpeg
-├── ParameterFiles/
-│   └── paramsquadcopter_final.param
-
-
+│       ├── Drone6.jpeg
+│       └── Video1.mp4
