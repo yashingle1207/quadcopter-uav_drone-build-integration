@@ -79,16 +79,12 @@ This is a real hardware build and validation project, not a simulation-only exer
 
 ![Drone Image 1](../docs/images/Drone1.jpeg)
 ![Drone Image 2](../docs/images/Drone2.jpeg)
-![Drone Image 3](../docs/images/Drone3.jpeg)
-![Drone Image 4](../docs/images/Drone4.jpeg)
-![Drone Image 5](../docs/images/Drone5.jpeg)
 ![Drone Image 6](../docs/images/Drone6.jpeg)
 
 ### Controller / Radio Setup
 
 ![Controller Image 1](../docs/images/Controller1.jpeg)
 ![Controller Image 2](../docs/images/Controller2.jpeg)
-![Controller Image 3](../docs/images/Controller3.jpeg)
 ![Controller Image 4](../docs/images/Controller4.jpeg)
 
 ---
