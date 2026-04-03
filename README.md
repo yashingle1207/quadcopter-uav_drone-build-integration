@@ -53,6 +53,37 @@ The project emphasizes practical embedded systems work at the hardware/software 
 These guides document the assembly sequence, subsystem wiring, radio setup, telemetry options, and final configuration used in the completed build.
 
 ---
+## Technical Scope
+
+This project demonstrates hands-on experience in:
+
+- embedded hardware bring-up
+- flight-controller and firmware configuration
+- electrical wiring and power-path integration
+- UART-based receiver and telemetry integration
+- radio setup and control-link validation
+- GPS and navigation subsystem integration
+- bench-level testing and validation workflows
+- structured documentation and reproducible system setup
+
+This is a real hardware build and validation project, not a simulation-only exercise.
+
+---
+
+## Core Competencies Demonstrated
+
+- Quadcopter assembly and system integration
+- ESC and brushless motor bring-up
+- Flight-controller configuration using ArduCopter
+- ExpressLRS transmitter/receiver setup and binding
+- UART wiring and serial interface integration
+- GPS module integration
+- Mission Planner validation and tuning
+- Embedded system debugging and verification
+- Documentation for reproducible builds
+
+---
+
 
 ## System Images
 
