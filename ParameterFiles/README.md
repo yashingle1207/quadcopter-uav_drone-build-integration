@@ -26,6 +26,11 @@ Graduate-level quadcopter UAV build and integration project covering mechanical 
 
 ---
 
+## Certifications
+
+- [FAA TRUST Completion Certificate](docs/certifications/faa_trust_certificate_redacted.pdf)  
+  Recreational UAS Safety Test (TRUST), issued by the Academy of Model Aeronautics, October 2025.
+
 ## Overview
 
 This repository documents my end-to-end build, integration, configuration, and bring-up of a compact quadcopter UAV completed as part of a graduate drone systems project.
