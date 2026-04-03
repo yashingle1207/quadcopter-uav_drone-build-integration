@@ -38,7 +38,7 @@ The project emphasizes practical embedded systems work at the hardware/software 
 
 ## Certifications
 
-- [FAA TRUST Completion Certificate](docs/certifications/faa_trust_certificate_redacted.pdf)  
+- [FAA TRUST Completion Certificate](docs/certifications/FAA_Trust_Certificate_Yash_Ingle.pdf)  
   Recreational UAS Safety Test (TRUST), issued by the Academy of Model Aeronautics, October 2025.
 
 ---
