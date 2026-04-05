@@ -142,14 +142,18 @@ quadcopter-uav_drone-build-integration/
 │   │   ├── 03_radio_and_mission_planner_setup.pdf
 │   │   └── 04_telemetry_and_final_configuration.pdf
 │   └── images/
-│       ├── Controller1.jpeg
-│       ├── Controller2.jpeg
-│       ├── Controller3.jpeg
-│       ├── Controller4.jpeg
-│       ├── Drone1.jpeg
-│       ├── Drone2.jpeg
-│       ├── Drone3.jpeg
-│       ├── Drone4.jpeg
-│       ├── Drone5.jpeg
-│       ├── Drone6.jpeg
-│       └── Video1.mp4
+│   |   ├── Controller1.jpeg
+│   |   ├── Controller2.jpeg
+│   |   ├── Controller3.jpeg
+│   |   ├── Controller4.jpeg
+│   |   ├── Drone1.jpeg
+│   |   ├── Drone2.jpeg
+│   |   ├── Drone3.jpeg
+│   |   ├── Drone4.jpeg
+│   |   ├── Drone5.jpeg
+│   |   ├── Drone6.jpeg
+│   └── video/
+|       |──Video1.mp4
+|       |──Video2.mp4
+|       |──Video3.mp4
+
